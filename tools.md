@@ -21,4 +21,4 @@ Todella tärkeä kehitysväline on jokaisesta internetselaimesta löytyvät kehi
 Selainohjelmointia, web-sivuja, tyylejä ja JavaScriptiä voi tehdä paikallisesti ilman palvelinta, mutta jotkin asiat toimivat paremmin kun internetselain lataa sivut palvelimelta.
 Savoniassa jokaisella on oma www-kotihakemisto, jota voi käyttää selainohjelmoinnin julkaisupaikkana.
 
-Paikallisesti sovelluksia voi kehittää esimerkiksi [Node.Js](https://nodejs.org/en/):n paketinhallinnan (npm, Node Package Manager) kautta asennettavalla http-server -paketilla https://www.npmjs.com/package/http-server
+Paikallisesti sovelluksia voi kehittää esimerkiksi [Node.Js](https://nodejs.org/en/):n paketinhallinnan (npm, package manager for Node.js) kautta asennettavalla http-server -paketilla https://www.npmjs.com/package/http-server
