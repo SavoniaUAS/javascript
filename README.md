@@ -18,7 +18,7 @@ Milloin omat JavaScript-koodit suoritetaan? https://www.sitepoint.com/jquery-doc
 
 
 
-#Materiaaleja
+## Materiaaleja
 
 
 Hyvä pohjustus JavaScriptille ja ohjemateriaali on MDN:ssä https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
@@ -28,12 +28,12 @@ Lisäksi w3schools:lla on selkeä ohjemateriaali https://www.w3schools.com/js/
 Ja sitten kannattaa vielä perehtyä dokumenttiin https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 
 
-#Todella tärkeää tietoa
+## Todella tärkeää tietoa
 
-Ja lopuksi tehdään selväksi että JavaScript != Java. Samaa noissa kahdessa on se, että molemmissa on kirjaimet j, a ja v.
+Ja lopuksi tehdään selväksi että **JavaScript != Java**. Samaa noissa kahdessa on se, että molemmissa on kirjaimet j, a ja v.
 
 
-#Mikä ero on ECMAScriptillä ja JavaScriptillä?
+## Mikä ero on ECMAScriptillä ja JavaScriptillä?
 "By reading the ECMAScript specification, you learn how to create a scripting language. By reading theJavaScript documentation, you learn how to use a scripting language."
 
 https://medium.freecodecamp.org/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5
