@@ -15,3 +15,36 @@ Nimensä mukaisesti Ajax-kutsut tapahtuvat asynkroonisesti, eli koodi ei jää o
 Mikä on XMLHttpRequest? [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
 [https://www.w3schools.com/js/js_ajax_intro.asp](https://www.w3schools.com/js/js_ajax_intro.asp)
+
+## Esimerkki
+
+'''javascript
+        var url = 'http://api.icndb.com/jokes/random';
+
+        var httpRequest = new XMLHttpRequest();
+        if (!httpRequest) {
+            alert('Giving up :( Cannot create an XMLHTTP instance');
+        }
+        else
+        {
+            httpRequest.onreadystatechange = httpRequestDone;
+            httpRequest.open('GET', url);
+            httpRequest.send();
+            console.log('send GET request to ' + url);
+        }
+
+        function httpRequestDone() {
+            console.log('httpRequest readyState changed to ' + httpRequest.readyState);
+            console.log('server response code: ' + httpRequest.status);
+            if (httpRequest.readyState == XMLHttpRequest.DONE) {
+                if (httpRequest.status == 200) {
+                    var cntn = document.getElementById('content');
+                    
+                    var responseData = JSON.parse(httpRequest.responseText);
+                    cntn.innerHTML = '<b>' + responseData.value.id + '</b><p>' +
+                    responseData.value.joke + '</p>';
+                }
+            }
+        }
+
+'''
