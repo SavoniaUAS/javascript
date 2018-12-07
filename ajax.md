@@ -10,8 +10,8 @@ Nimensä mukaisesti Ajax-kutsut tapahtuvat asynkroonisesti, eli koodi ei jää o
 
 ## Materiaaleja
 
-https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
+[https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
 
-Mikä on XMLHttpRequest? https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+Mikä on XMLHttpRequest? [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
-https://www.w3schools.com/js/js_ajax_intro.asp
+[https://www.w3schools.com/js/js_ajax_intro.asp](https://www.w3schools.com/js/js_ajax_intro.asp)
