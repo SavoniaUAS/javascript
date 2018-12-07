@@ -34,3 +34,39 @@ Ja sitten kannattaa vielä perehtyä dokumenttiin [https://developer.mozilla.org
 ## Todella tärkeää tietoa
 
 Ja lopuksi tehdään selväksi että **JavaScript != Java**. Samaa noissa kahdessa on se, että molemmissa on kirjaimet j, a ja v.
+
+
+## Esimerkki
+
+```javascript
+// muuttujan voi esitellä var- tai let-avainsanalla
+var muuttujannimi = 'muuttujan arvo';
+var numero = 2;
+// tai vakiona
+const pi = 3.14;
+
+// funktion voi määritellä usealla tavalla
+// function declaration
+function omaFunktio() {
+    alert("Hello JavaScript!");
+}
+
+// tai function expression
+var area = function(a, b) {
+    return a * b;
+}
+
+// tai arrow function
+var volume = (x, y, z) => {
+    return x * y * z;
+}
+
+// funktiota voi kutsua esim.
+omaFunktio();
+
+var a = area(2, 5);
+console.log('pinta-ala (2, 5) = ' + a);
+
+// tai
+console.log('volume(1, 2, 3) = ' + volume(1, 2, 3));
+```
