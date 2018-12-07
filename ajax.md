@@ -18,6 +18,7 @@ Mikä on XMLHttpRequest? [https://developer.mozilla.org/en-US/docs/Web/API/XMLHt
 
 ## Esimerkki
 
+```
 var url = 'http://api.icndb.com/jokes/random';
 
 var httpRequest = new XMLHttpRequest();
@@ -45,3 +46,4 @@ function httpRequestDone() {
         }
     }
 }
+```
